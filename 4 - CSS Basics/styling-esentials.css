@@ -1,0 +1,92 @@
+#text-styling {
+    color: #ff7300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* Keyword Value */
+    font-weight: normal;
+    font-weight: bold;
+    font-weight: bolder;
+
+    /* Numeric value */
+    font-weight: 100;
+    font-weight: 500;
+    font-weight: 950;
+
+    /* Font-style */
+    font-style: normal;
+    font-style: italic;
+    font-style: oblique;
+
+    /* Text-align */
+    text-align: center;
+    text-align: right;
+    text-align: left;
+
+    /* Line Height */
+    line-height: normal;
+    line-height: 5.5;
+    line-height: 90%;
+    line-height: 30px;
+
+    /* Letter-Sapacing */
+    letter-spacing: normal;
+    letter-spacing: 1px;
+
+
+
+}
+/* Text Decoration */
+#text-decoration {
+
+text-decoration: overline;
+text-decoration: line-through;
+text-decoration: underline;
+
+text-decoration-style: solid;
+text-decoration-style: double;
+text-decoration-style: dashed;
+text-decoration-style: dotted;
+text-decoration-style: wavy;
+
+text-decoration-color: blueviolet;
+text-decoration-thickness: 2px;
+
+text-decoration-color: red;
+    text-decoration-thickness: 5px;
+
+    text-decoration: underline overline line-through;
+    text-decoration: underline solid red 50%;
+}
+
+#colors {
+    #colors {
+        /* Color Names */
+        color: white;
+        background-color: tomato
+    }
+
+    /* RGB - Red , Green, Blue */
+    /* rgb 0 - 255 */
+    /* RGBA - Red , Green, Blue , Alpha */
+    /* 0 -1 , 0 - Full Transparent , 1 - Full Opaque */
+    color: rgb(255, 255, 0);
+    background-color: rgba(0,0,255, .70);
+
+    /* Hexadecimal */
+    /* #RRGGBB */
+    /* 0 - 9, A -F */
+    color: #00b4d8;
+    background-color: #3a5a40;
+
+}
+
+#absolute-unit-px {
+    font-size: 28px;
+}
+
+#relative-unit-em {
+    font-size: 2em;
+}
+#relative-unit-rem {
+    font-size: 3rem;
+}
+
