@@ -1,0 +1,48 @@
+/* Padding (inner space) -- space within the box*/
+.box1 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+/* Shorthand - adding padding to each side */
+/* Clockwise */
+/* 1 Value = all sides */
+/* 2 Value = top and bottom/ left and right */
+/* 3 Value = top / left and right/ bottom */
+/* 4 Values = top / right/ bottom / left */
+.box2 {
+    padding: 20px 40px 60px 80px;
+}
+
+/* Marging */
+/*  add margin to each sides */
+.box3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+.box4 {
+    margin: 20px 30px 40px 50px;
+}
+
+.mix-borders {
+    background-color: blueviolet;
+    height: 100px;
+    width: 200px;
+    border-style: dashed dotted double solid;
+    border-width: 4px 6px 8px 10px;
+    border-color: maroon black blue yellow;
+    
+}
+
+.circle-container {
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    color: orange;
+}
